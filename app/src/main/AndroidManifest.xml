@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ChangeBG"
         tools:targetApi="31">
         <activity
+            android:name=".BT02"
+            android:exported="false" />
+        <activity
             android:name=".BT01"
             android:exported="false" />
         <activity
@@ -28,7 +31,7 @@
             android:name=".ImageViewDemo"
             android:exported="false" />
         <activity
-            android:name=".BT02"
+            android:name=".CheckBox"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
